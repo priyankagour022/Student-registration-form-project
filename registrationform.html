@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+    <style>
+        h1 {
+            text-align: center;
+        }
+    </style>
+    <style>
+        * {
+            text-align: center;
+
+        }
+    </style>
+    <style>
+        h1,
+        pre {
+
+            color: black;
+            font-family: 'Courier New', Courier, monospace;
+        }
+    </style>
+    <script src="JScodevalidation.js"></script>
+    <script src="validationForUserId.js"></script>
+    <style>
+        body {
+            background-image: url("sukoon.jpg");
+            background-size: cover;
+        }
+    </style>
+</head>
+
+<body>
+    <form>
+        <pre>
+                        <b> <h1>Registration Form</h1></b>
+         <b>User-id </b>: <input type="number" placeholder="userid" id="userid"><br>
+
+         <b> Password :</b> <input type="password" placeholder="password"  id="password"><br>
+
+        <b> Name : </b><input type="text" placeholder="name" id="name"><br>
+
+         <b> Address :</b> <input type="text" placeholder="address" id="address"><br>
+
+                <b> Courses :</b> <select name="couses">
+               <option value="Hyderabad">BTech</option>
+               <option value="Banglore">MTech</option>
+               <option value="Rajasthan">IMTech</option>
+               <option value="Kanpur">BCA</option>
+               <option value="Indore">MCA</option>
+               </select><br>
+
+         <b> University Name : </b><input type="number" placeholder="university name"><br>
+
+         <b> Email : </b>   <input type="email" placeholder="Email"><br>
+
+         <b> Sex :   </b>   <input type="radio" id="male" name="GENDER" value="MALE"> <label for="male">MALE</label> <input type="radio" id="female" name="GENDER" value="FEMALE">  <label for="female" >FEMALE</label>
+                   
+
+         <b> Language : </b><label> <input type="checkbox" >Hindi </label><label> <input type="checkbox" >English </label><br><br>
+
+         <b> Discription :</b> <textarea name="message" rows="5" cols="20">Message</textarea>
+        
+                 <input type="submit" name="submit" value="Submit" onclick="alert('your form submitted successfully')"/> 
+    </pre>
+    </form>
+</body>
+
+</html>
